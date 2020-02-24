@@ -1,0 +1,117 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  display: flex;
+  font-size: 13px;
+  flex-direction: column;
+}
+    
+nav {
+    text-align:right;
+}
+
+.nav-item {
+    text-decoration:none;
+
+}
+
+.nav-item:hover {
+    text-decoration:underline;
+}
+
+.nav-space {
+    margin-right:10px;
+}
+
+.logo {
+    width:300px;
+ 
+}
+
+section {
+    text-align:center;
+    margin-top:150px;
+}
+
+.search-bar {
+    width: 500px;
+    height: 45px;
+    font-size: 20px;
+    box-shadow: none;
+    padding-left: 50px;
+    padding-right:50px;
+    border-radius: 25px;
+    border: 1px solid rgb(223, 223, 223);
+    position:relative;
+}
+
+.search-icon {
+    height:20px;
+    position: absolute;
+    left:480px;
+    top:420px;
+}
+
+.dictation-icon {
+    height:20px;
+    position: absolute;
+    right:380px;
+    top:420px;
+
+}
+
+.button-area {
+    margin-top:20px;
+}
+
+button {
+    border-radius: 5px;
+    width:150px;
+    height:40px;
+    background-color: #F7F7F7;
+    border:none;
+    margin:5px;
+    font-size:14px;
+    margin-bottom:30px;
+    
+}
+
+button:hover {
+    border:1px solid grey;
+}
+
+a {
+    margin:5px;
+    text-decoration:none;
+}
+
+footer {
+    background-color: #F2F2F2;
+    height:40px;
+    color:grey;
+    padding-left:30px;
+    padding-top:20px;
+    font-size:14px;
+    margin-top: auto;
+    
+}
+
+.first {
+    height:40px;
+}
+.second {
+    display:flex;
+    height:40px;
+ 
+}
+
+.right {
+    display:flex;
+    flex:1;
+    justify-content: flex-end;
+}
+
+input {
+    outline:none;
+}
